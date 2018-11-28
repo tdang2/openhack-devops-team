@@ -67,6 +67,7 @@ public class UserRepositoryServiceTest {
         Profile updated = userRepositoryService.update(profile);
         assertEquals(ranking, updated.getRanking());
         assertEquals(distance, updated.getTotalDistance());
+        assertEquals(2, 1);
     }
 
     @Test
