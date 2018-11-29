@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.image.name }}-deploy-{{ .Value.release.number }}
+  name: {{ .Values.image.name }}-deploy-{{ .Values.release.number }}
   labels:
     deploy: {{ .Values.image.label }}
 spec:
