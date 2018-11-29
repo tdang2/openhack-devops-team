@@ -10,7 +10,10 @@ image:
   name: mydrive-user
   label: mydrive-user
   containerPort: 8080
+release:
+  number: changeme
 service:
+  name: api-user-svc
   externalPort: 80
 ingress:
   enabled: true
